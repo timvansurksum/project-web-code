@@ -55,7 +55,7 @@ div.b {
 .openbtn {
   font-size: 20px;
   cursor: pointer;
-  background-color: #111;
+  background-color: rgb(30, 81, 122);
   color: white;
   padding: 10px 15px;
   border: none;
@@ -105,7 +105,7 @@ body {
   size: 100%
 }
   body {
-  background-image: url("background.jpg"), url("background");
+  background-image: url("./n3NxpV.jpg"), url("background");
   background-repeat: no-repeat;
   background-size: 1920px 1080px;
   background-color: rgb(255, 0, 255);

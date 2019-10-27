@@ -1,0 +1,122 @@
+
+.container-fluid {
+  background-color: rgb(30, 129, 211)
+}
+
+.grid-container-fluid {
+  display: grid;
+  background-color: rgb(30, 129, 211);
+}
+
+
+
+div.a {
+  text-align: center;
+}
+
+div.b {
+  text-align: center;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(30, 81, 122);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  float: left;
+  width: 5rem;
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+
+  .sidebar a {
+    font-size: 18px;
+  }
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex-shrink: 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+body {
+  background-image: url("background.jpg"), url("background");
+  background-repeat: no-repeat;
+  background-size: 1920px 1080px;
+  background-color: rgb(255, 0, 255);
+}
+
+main#Head div.titles {
+  width: calc(100% - 5rem);
+}
+
+.FAQ
+{
+  color: white;
+  padding-bottom: 80px;
+}
